@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>DelightCake</title>
+<link rel="stylesheet" href="./css/input.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-pink-50 text-gray-800">
+     <nav class="bg-[#0a2e1c] shadow-md sticky top-0 text-white bg-pink-400 z-50 overflow-visible bg-pink-400 text-white">
+        
+        <div class="container mx-auto px-4">
+            <div class="freehand-regular flex justify-between items-center">
+
+                <div class=" flex justify-between text-white py-3">
+                    <div class="size-logo">
+                        <img src="./images/logorm.jpg" alt="" class="size-logo">
+                    </div>
+
+                    <span class="dancing-script py-3"> DelightCake</span>
+                </div>
+
+                <input type="checkbox" id="nav-toggle" class="peer hidden" />
+
+                <label for="nav-toggle" class="md:hidden cursor-pointer text-2xl  select-none">
+                    ☰
+                </label>
+
+    <ul class="hidden peer-checked:flex peer-checked:flex-col absolute top-full left-0 w-full bg-pink-400 pb-4 px-4 shadow-xl md:flex md:static md:flex-row md:w-auto md:bg-transparent md:p-0 md:shadow-none md:space-x-8 text-sm  ">
+        <li class="py-2 md:py-0  border-pink-600 md:border-none">
+            <a href="index.html" class="hover:bg-pink-800 hover:text-pink-300 transition block px-4 py-2 rounded-lg">Home</a>
+        </li>
+
+        <li class="py-2 md:py-0  border-pink-600 md:border-none"></li>
+            <a href="about.html" class="hover:bg-pink-800 hover:text-pink-300  transition block px-4 py-2 rounded-lg">About</a>
+        </li>
+        <li class="py-2 md:py-0  border-pink-600 md:border-none"></li>
+            <a href="services.html" class="hover:bg-pink-800 hover:text-pink-300  transition block px-4 py-2 rounded-lg">Services</a>
+        </li>
+        <li class="py-2 md:py-0 md:border-none">
+            <a href="contact.html" class="hover:bg-pink-800 hover:text-pink-300  transition block px-4 py-2 rounded-lg">Contact</a>
+        </li>
+    </ul>
+
+            </div>
+        </div>
+       
+    </nav>
+<section class="pt-28 pb-16 bg-gradient-to-r from-pink-100 to-pink-200 text-center">
+    <h2 class="text-4xl font-bold mb-4">About DelightCake</h2>
+    <p class="max-w-2xl mx-auto text-gray-700">
+      Baking happiness, one cake at a time. We create custom cakes for every special moment.
+    </p>
+  </section>
+  <!-- Our Story -->
+  <section class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <img src="images/MacaronC2.jpg" class="rounded-2xl shadow-lg" alt="Our Bakery">
+
+    <div>
+      <h3 class="text-3xl font-bold mb-4 text-pink-600">Our Story</h3>
+      <p class="text-gray-700 leading-relaxed">
+        DelightCake started with a simple dream to bring joy through beautiful and delicious cakes.
+        What began as a passion for baking has now grown into a full custom bakery creating
+        cakes for birthdays, weddings, and special celebrations.
+      </p>
+      <p class="mt-4 text-gray-700">
+        Every cake is handcrafted with love, fresh ingredients, and creativity.
+      </p>
+    </div>
+  </section>
+  <!-- Why Choose Us -->
+  <section class="max-w-6xl mx-auto px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-10">Why Choose Us</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold text-pink-500 mb-2"> Fresh Ingredients</h4>
+        <p>We use only high-quality and fresh ingredients in every cake.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold text-pink-500 mb-2"> Custom Designs</h4>
+        <p>Every cake is designed based on your ideas and celebration theme.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold text-pink-500 mb-2"> Made with Love</h4>
+        <p>We bake every cake with care, passion, and attention to detail.</p>
+      </div>
+
+    </div>
+  </section>
+  <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <img src="images/IMG_4068.JPG" class="w-32 h-32 mx-auto rounded-full mb-4" alt="">
+          <h4 class="font-bold">Nally</h4>
+          <p class="text-sm text-gray-600">Cake Designer</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <img src="images/IMG_4070.JPG" class="w-32 h-32 mx-auto rounded-full mb-4" alt="">
+          <h4 class="font-bold">Celliy</h4>
+          <p class="text-sm text-gray-600">Head Baker</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <img src="images/IMG_4069.JPG" class="w-32 h-32 mx-auto rounded-full mb-4" alt="">
+          <h4 class="font-bold">lilly</h4>
+          <p class="text-sm text-gray-600">Decor Specialist</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+  <footer class="bg-pink-400 text-white text-center p-4">
+    <div class="max-w-6xl mx-auto text-center px-6">
+       <div class="flex items-center justify-center gap-3">
+        <img src="./images/logorm.jpg" alt="" class="size-logo">
+      <h4 class="dancing-script text-white py-3"> DelightCake</h4>
+       </div>
+      <p class="text-gray-600 mt-2">Making your sweetest moments unforgettable.</p>
+
+      <div class="mt-4 space-x-4 text-sm">
+        <a href="#" class="hover:text-pink-500">Facebook</a>
+        <a href="#" class="hover:text-pink-500">Instagram</a>
+        <a href="#" class="hover:text-pink-500">TikTok</a>
+      </div>
+
+      <p class="text-gray-400 text-xs mt-6">© 2026 DelightCake. All rights reserved.</p>
+    </div>
+    </footer>
+</body>
+  
+</body></html>
